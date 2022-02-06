@@ -5,7 +5,10 @@
 .next-slide , .container-photo-event{
     display: none;
 }
-
+.next , .prev {
+    font-size: 10px;
+    font-weight: bolder;
+}
 
 .container-with-nav {
     
@@ -295,6 +298,11 @@ button.orange-button:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+}
+
+.left-arrow, .right-arrow {
+    position: absolute;
 }
 
 .sliders {
@@ -305,4 +313,51 @@ button.orange-button:hover {
     text-align: center;
     margin: auto 10px;
     padding-bottom: 30px;
+}
+
+
+.left-arrow, 
+.right-arrow {
+  display: inline-flex;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(200, 105, 58);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.left-arrow::before, 
+.right-arrow::before {
+  position: absolute;
+  display: inline-flex;
+  width: 10px;
+  height: 10px;
+  content: '';
+}
+
+.left-arrow::before {
+  top: 10px;
+  left: 11px;
+  border-top: 2px solid rgb(61, 43, 21);
+  border-left: 2px solid rgb(61, 43, 21);
+  transform: rotate(-45deg);
+}
+
+.right-arrow::before {
+  top: 10px;
+  right: 11px;
+  border-top: 2px solid rgb(61, 43, 21);
+  border-right: 2px solid rgb(61, 43, 21);
+  transform: rotate(45deg);
+}
+
+.left-arrow:hover, 
+.right-arrow:hover {
+  background-color: rgb(61, 43, 21);
+}
+
+.left-arrow:hover:before, 
+.right-arrow:hover:before {
+  border-color: rgb(200, 105, 58);
 }
