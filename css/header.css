@@ -1,0 +1,180 @@
+
+
+.bag {
+	background-color: #fff;
+	border-radius: 50% ;
+	height: 10vh;
+	width: 10vh;
+	padding: 5px;
+	position: fixed;
+	top: 100px;
+	right: 30px;
+}
+.bag:hover{
+	cursor: pointer;
+	background-color: rgb(238, 234, 234);
+}
+
+.line {
+	height: 2px;
+    width: 48px;
+    background-color: #c8693a;
+    margin: 15px 0;
+}
+
+.ui-title_1 {
+	font-family: "Prata", serif;
+	font-size: 84px;
+}
+/* code below set the photo on background  */
+header {
+	background-image: url('../img/banner-first-page.webp');
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
+}
+#slide-bg{
+width: 100%;
+height: 100vh;
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.header-block {
+	height: 100vh;
+
+}
+
+.header-logo img{
+	max-width: 100%;
+	display: block;
+}
+.header-logo{
+	max-width: 20vw;
+}
+
+
+nav{
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+.container-menu {
+	max-width: 100%;
+	height: 100px;
+	width: 100%;
+	background-color: rgba(0, 0, 0);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.social-media, .menu{
+	display: flex;
+}
+
+.nav__link {
+	display: flex;
+	font-size: 18px;
+	font-family:"Rubic",  sans-serif;
+	margin: 0 10px;
+	padding: 10px 5px;
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+
+.wrapper-content-hero {
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: "Prata",serif;
+	padding: 9vh 0 40vw 40vw;
+}
+
+.wrapper-content-hero img{
+	width: 50%;
+}
+
+.child-banner{
+	max-width:400px ;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgba(180, 92, 92, 0.473);
+}
+
+.child-banner .pre-title {
+	color: #fff;
+}
+
+.header-content{
+	margin: 20px 0;
+}
+
+.block-events{
+	display: flex;
+	margin: auto 10vh ;
+}
+	
+
+.special-events {
+	margin: 4vh;
+	padding: 50vh 10vh;
+}
+
+.container-photo-event {
+width: 369px;
+height: 475px;
+background-image: url('../img/for-your-special-events.webp');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.container-photo-event1 {
+width: 369px;
+height: 475px;
+background-image: url('../img/100-organic.webp');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.container-photo-event2 {
+width: 369px;
+height: 475px;
+background-image: url('../img/selected-grape-values.webp');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.grape-branches-sp{
+margin: auto;
+}
+
+.block-specials{
+border:none;
+}
+.aside-feature{
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.container-for-special{
+	display: flex;
+	margin: auto;
+
+}
+
+.container-part-content-left{
+	margin-right: 20px;
+	
+}
+.paragraf-items{
+	padding: auto;
+	width: 300px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}

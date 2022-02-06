@@ -1,0 +1,120 @@
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    top: 0;
+    left: 0;
+}
+
+.popup-body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-content {
+    color: #fff;
+    background-color: rgb(36, 28, 28);
+    width: 770px;
+    height: 421px;
+}
+
+.popup-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;
+    font-family: 'Prata', serif;
+    vertical-align: baseline;
+    padding-top: 80px;
+}
+
+.popup-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.popup-text {
+    font-size: 16px;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: center;
+    margin-top: 20px;
+}
+.popup-button {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.popup-confirm {
+    width: 119px;
+    height: 41px;
+    border-radius: 3px;
+    font-size: 15px;
+    color: white;
+    background-color: #c8693a;
+    padding: 16px 25px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 2px;
+    border: 3px solid #c8693a;
+}
+.popup-confirm:hover {
+    background-color: #af572b;
+    color: white;
+    cursor: pointer;
+}
+
+.popup-cancel {
+    width: 119px;
+    height: 41px;
+    color: #fff;
+    background-color: clear;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 16px 25px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border: 3px solid white;
+    text-align: center;
+
+}
+.popup-cancel:hover {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+
+.modal-open {
+    overflow: hidden; 
+}
+
+.child-banner {
+    background: none;
+}
+
+
+@media screen and (max-width: 401px) {
+    .popup-title {
+        padding-top: 30px;
+    }
+    .illustration {
+        max-width: 300px ;
+    }
+    .details ul li, .details h2, .details {
+        margin: 5px auto;
+    }
+    .details {
+        padding: 5px;
+    }
+    .history-wines {
+        padding: 5px;
+    }
+}
